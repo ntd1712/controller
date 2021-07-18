@@ -1,0 +1,32 @@
+{
+  "name": "chaos/controller",
+  "description": "Pre-built controller base classes, more frameworks to come soon",
+  "keywords": [
+    "vietnam",
+    "controller"
+  ],
+  "homepage": "https://github.com/ntd1712",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ntd1712",
+      "email": "ntd1712@mail.com"
+    }
+  ],
+  "require": {
+    "chaos/service": "*",
+    "chaos/resolver": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chaos\\Controller\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
